@@ -70,14 +70,14 @@ const model = {
             { 
                 id: 1,
                 name: 'blåbær',
-                Category: 'berry',
+                Category: model.data.categories[0],
                 lastHarvest: '2024-10-22',
                 location: 'blåbærskogen i Tønsberg', 
                 image: '', 
                 foundBy: 'Linn'
             },
         ],
-        category: [
+        categories: [
             {
                 name: 'Berry',
                 numberOfSightings: '',
